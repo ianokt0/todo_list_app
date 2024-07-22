@@ -1,0 +1,49 @@
+  // VARIABLES: You can store different types of info into variables
+  // String name = "Ian Okt";
+  // int age = 5;
+  // double pi = 3.14;
+  // bool isBeginner = true;
+
+  /* 
+  BASIC MATH OPERATIONS
+  1 + 1 -> 2, add
+  4 - 1 -> 3, subtract
+  2 * 3 -> 6, multiply
+  8 / 4 -> 2, divide
+  9 % 4 -> 1, remainder
+  FUNCTION
+  deklarasi function dengan 'void namaFunction(){}'
+  */
+  // BASIC FUNCTION
+  // void greet() {
+  //   print("halo anjing");
+  // }
+
+  // FUNCTION WITH PARAMETERS
+  // void printName(String name) {
+  //   print("hallo :" + name);
+  // }
+
+  // FUNCTION WITH RETURN TYPE
+  // int add(int a, int b) {
+  //   int sum = a + b;
+  //   return sum;
+  // }
+
+  /* 
+  DATA STRUCTURES
+  */
+  // List:ordered collection of elements, can have duplicates.
+  // List<String> names = ['Ian', 'Oktafian', 'Oktafian', 'Ian'];
+
+  // SET: underordered collection of unique elements
+  // Set<String> uniqueNames = {"Ian", "Oktafian", "PS"};
+
+  // MAP: stored as key-value pairs
+  // Map user = {
+  //   'id': '1',
+  //   'name': "Ian Oktafian PS",
+  //   'email': 'ian@gmail.com',
+  //   'phone': '088228877768',
+  //   'age': '23'
+  // };
