@@ -26,7 +26,10 @@ class _GetDataPageState extends State<GetDataPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.yellow,
         title: Text('Get Data Page'),
+        elevation: 0,
+        centerTitle: true,
       ),
       body: Center(
         child: FutureBuilder<List<BahanBaku>>(
