@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_course/pages/home_page.dart';
+import 'package:flutter_course/pages/get_data.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 
 void main() async {
@@ -25,6 +26,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(primarySwatch: Colors.yellow),
         routes: {
           '/homepage': (context) => HomePage(),
+          '/get-data-page': (context) => GetDataPage(),
         });
   }
 }

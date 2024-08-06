@@ -70,6 +70,15 @@ class _HomePageState extends State<HomePage> {
     db.updateDataBase();
   }
 
+  // final List _pages = [
+  //   // homepages
+  //   HomePage(),
+  //   // profilepages
+  //   ProfilePage(),
+  //   // settings pages
+  //   SettingsPage(),
+  // ];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -79,6 +88,12 @@ class _HomePageState extends State<HomePage> {
         title: Text("TO DO"),
         elevation: 0,
         centerTitle: true,
+        actions: [
+          ElevatedButton(
+            onPressed: () => {Navigator.pushNamed(context, '/get-data-page')},
+            child: Text('Get Data...'),
+          )
+        ],
       ),
       floatingActionButton: FloatingActionButton(
         backgroundColor: Colors.yellow,
